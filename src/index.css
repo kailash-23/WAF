@@ -18,10 +18,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 13% 18%;
 
-    /* Modern blue primary */
-    --primary: 217 91% 59%;
+    /* Modern black primary */
+    --primary: 0 0% 0%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 217 91% 54%;
+    --primary-hover: 0 0% 15%;
 
     /* Clean secondary */
     --secondary: 220 14% 96%;
@@ -40,7 +40,7 @@
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 217 91% 59%;
+    --ring: 0 0% 0%;
 
     /* Design system extensions */
     --success: 142 71% 45%;
@@ -50,7 +50,7 @@
     --warning-foreground: 0 0% 100%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(217 91% 59%), hsl(217 91% 54%));
+    --gradient-primary: linear-gradient(135deg, hsl(0 0% 0%), hsl(0 0% 15%));
     --gradient-accent: linear-gradient(135deg, hsl(25 95% 53%), hsl(25 95% 48%));
     --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(220 14% 98%));
 
@@ -80,7 +80,7 @@
 
     --sidebar-border: 220 13% 91%;
 
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 0 0% 0%;
   }
 
   .dark {
@@ -118,7 +118,7 @@
     --sidebar-accent: 240 3.7% 15.9%;
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 0 0% 0%;
   }
 }
 

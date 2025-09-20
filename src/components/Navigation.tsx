@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Search, User, ShoppingBag, Plus, Menu, X } from "lucide-react";
+import { Search, User, Plus, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -24,7 +24,6 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <ShoppingBag className="h-8 w-8 text-primary" />
             <span className="text-xl font-bold text-foreground">MarketPlace</span>
           </Link>
 
