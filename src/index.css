@@ -134,18 +134,47 @@
 }
 
 @layer components {
-  /* Product card hover effects */
+  /* Enhanced product card hover effects */
   .product-card {
-    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02] bg-white border border-gray-200 rounded-xl overflow-hidden;
   }
   
-  /* Smooth button transitions */
+  /* Professional button transitions */
   .btn-smooth {
-    @apply transition-all duration-200 ease-in-out;
+    @apply transition-all duration-200 ease-in-out hover:shadow-lg active:scale-95;
   }
   
-  /* Input focus styles */
+  /* Enhanced input focus styles */
   .input-focus {
-    @apply transition-all duration-200 focus:ring-2 focus:ring-primary/20 focus:border-primary;
+    @apply transition-all duration-200 focus:ring-2 focus:ring-black/10 focus:border-black focus:shadow-lg;
+  }
+
+  /* Professional card styling */
+  .professional-card {
+    @apply bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+
+  /* Modern section spacing */
+  .section-padding {
+    @apply py-16 lg:py-24;
+  }
+
+  /* Professional heading styles */
+  .heading-primary {
+    @apply text-4xl lg:text-6xl font-bold text-gray-900 leading-tight;
+  }
+
+  .heading-secondary {
+    @apply text-3xl lg:text-4xl font-semibold text-gray-900 leading-tight;
+  }
+
+  /* Professional text styles */
+  .text-body {
+    @apply text-lg text-gray-600 leading-relaxed;
+  }
+
+  /* Enhanced gradient backgrounds */
+  .gradient-bg {
+    @apply bg-gradient-to-br from-gray-50 via-white to-gray-50;
   }
 }
